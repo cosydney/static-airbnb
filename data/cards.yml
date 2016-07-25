@@ -1,0 +1,18 @@
+seb:
+  image_path: card-paris.jpg
+  city: Paris
+  name: Seb
+  description: Bienvenue à Paris
+  owner_picture: seb.jpg
+anne:
+  image_path: card-brussels.jpeg
+  city: Brussels
+  name: Anne
+  description: Bienvenue à Bruxelles
+  owner_picture: anne.jpg
+romain:
+  image_path: card-london.jpeg
+  city: London
+  name: Romain
+  description: Welcome to London
+  owner_picture: romain.jpg

@@ -4,227 +4,207 @@ title: Le Wagon Middleman boilerplate
 
 <body>
 
-      <!-- Your banner code -->
-      <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
-        <div class="text-center banner-content">
-          <h1>Welcome Home</h1>
-          <p>Rent unique places to stay from local hosts in 190+ countries.</p>
-          <!-- form -->
-          <div class="form-white">
-          <form class="form-inline">
-            <div class="form-group"><input type="text" id="" class="form-control input-lg" placeholder="checkin"></div>
-            <div class="form-group"><input type="text" id="" class="form-control input-lg" placeholder="checkout"></div>
-            <div class="form-group">
-             <select name="" id="" class="form-control input-lg">
-              <option value="1">1 person</option>
-              <option value="2">2 persons</option>
-              <option value="3">3 persons</option>
-            </select>
-          </div>
-          <button type="submit" class="btn btn-primary btn-lg">Search</button>
-        </form>
+  <!-- Your banner code -->
+  <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
+    <div class="text-center banner-content">
+      <h1>Welcome Home</h1>
+      <p>Rent unique places to stay from local hosts in 190+ countries.</p>
+      <!-- form -->
+      <div class="form-white">
+        <form class="form-inline">
+          <div class="form-group"><input type="text" id="" class="form-control input-lg" placeholder="checkin"></div>
+          <div class="form-group"><input type="text" id="" class="form-control input-lg" placeholder="checkout"></div>
+          <div class="form-group">
+           <select name="" id="" class="form-control input-lg">
+            <option value="1">1 person</option>
+            <option value="2">2 persons</option>
+            <option value="3">3 persons</option>
+          </select>
         </div>
-
-        <!-- above -->
-      </div>
-    </div>
-    <!-- Your features code -->
-
-    <div class="text-center padded features">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-3">
-            <%= image_tag "globe.png", alt:"Globe" %>
-            <h2>Discover the world</h2>
-            <p>The earth is your new home.</p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3">
-            <%= image_tag "dollar.png", alt: "dollar-img" %>
-            <h2>Pay online</h2>
-            <p>No cash issues anymore.</p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3">
-            <%= image_tag"beer.png", alt: "beer-icon" %>
-            <h2>Meet people</h2>
-            <p>Discover new culture and lifestyle.</p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3">
-            <%= image_tag "heart.png", alt: "heart-icon" %>
-            <h2>Share and Love</h2>
-            <p>Join a community you will love.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Your cards code -->
-    <div class="text-center padded wrapper-grey">
-
-      <h2>Your next trip</h2>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4">
-            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-paris.jpg');">
-              <div class="card-category">Paris</div>
-              <div class="card-description">
-                <h2>Seb's home</h2>
-                <p>Bienvenue à Paris</p>
-              </div>
-              <%= image_tag "seb.jpg", class: "card-user avatar", alt: "seb" %>
-              <a class="card-link" href="#"></a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-brussels.jpeg');">
-              <div class="card-category">Brussels</div>
-              <div class="card-description">
-                <h2>Anne's place</h2>
-                <p>Bienvenue à Bruxelles</p>
-              </div>
-              <img class="card-user avatar" src="images/anne.jpg">
-              <a class="card-link" href="#" ></a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-london.jpeg');">
-              <div class="card-category">London</div>
-              <div class="card-description">
-                <h2>London</h2>
-                <p>Welcome to London</p>
-              </div>
-              <img class="card-user avatar" src="images/romain.jpg">
-              <a class="card-link" href="#" ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Your newsletter code -->
-    <div class="text-center padded newsletter">
-      <h1>Get news from us</h1>
-      <p>Leave us your mail and get news from us</p>
-      <form class="form-inline">
-        <div class="form-group">
-          <input type="email" class="form-control" id="email" placeholder="bob@gmail.com">
-        </div>
-        <button type="submit" class="btn btn-primary">Subscribe</button>
+        <button type="submit" class="btn btn-primary btn-lg">Search</button>
       </form>
     </div>
-    <!-- Your map code -->
-    <div id="map" style="width: 100%; height: 400px;"></div>
 
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <!-- above -->
+  </div>
+</div>
+<!-- Your features code -->
 
-    <script type="text/javascript">
-      var myLatlng = new google.maps.LatLng(48.852937,2.364178);
+<div class="text-center padded features">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= image_tag "globe.png", alt:"Globe" %>
+        <h2>Discover the world</h2>
+        <p>The earth is your new home.</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= image_tag "dollar.png", alt: "dollar-img" %>
+        <h2>Pay online</h2>
+        <p>No cash issues anymore.</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= image_tag"beer.png", alt: "beer-icon" %>
+        <h2>Meet people</h2>
+        <p>Discover new culture and lifestyle.</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <%= image_tag "heart.png", alt: "heart-icon" %>
+        <h2>Share and Love</h2>
+        <p>Join a community you will love.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-      var myOptions = {
-        zoom: 16,
-        center: myLatlng,
-        scrollwheel: false,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        styles: [{
-          "featureType": "landscape",
-          "stylers": [
-          {
-            "hue": "#FFBB00"
-          },
-          {
-            "saturation": 43.400000000000006
-          },
-          {
-            "lightness": 37.599999999999994
-          },
-          {
-            "gamma": 1
-          }
-          ]
-        },
-        {
-          "featureType": "road.highway",
-          "stylers": [
-          {
-            "hue": "#FFC200"
-          },
-          {
-            "saturation": -61.8
-          },
-          {
-            "lightness": 45.599999999999994
-          },
-          {
-            "gamma": 1
-          }
-          ]
-        },
-        {
-          "featureType": "road.arterial",
-          "stylers": [
-          {
-            "hue": "#FF0300"
-          },
-          {
-            "saturation": -100
-          },
-          {
-            "lightness": 51.19999999999999
-          },
-          {
-            "gamma": 1
-          }
-          ]
-        },
-        {
-          "featureType": "road.local",
-          "stylers": [
-          {
-            "hue": "#FF0300"
-          },
-          {
-            "saturation": -100
-          },
-          {
-            "lightness": 52
-          },
-          {
-            "gamma": 1
-          }
-          ]
-        },
-        {
-          "featureType": "water",
-          "stylers": [
-          {
-            "hue": "#0078FF"
-          },
-          {
-            "saturation": -13.200000000000003
-          },
-          {
-            "lightness": 2.4000000000000057
-          },
-          {
-            "gamma": 1
-          }
-          ]
-        },
-        {
-          "featureType": "poi",
-          "stylers": [
-          {
-            "hue": "#00FF6A"
-          },
-          {
-            "saturation": -1.0989010989011234
-          },
-          {
-            "lightness": 11.200000000000017
-          },
-          {
-            "gamma": 1
-          }
-          ]
+<!-- Your cards code * 3 -->
+
+<div class="text-center padded wrapper-grey">
+  <h2>Your next trip</h2>
+  <div class="container">
+    <div class="row">
+      <% data.cards.each do |member, info|%>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/<%= info.image_path %>');">
+         <div class="card-category">  <%= info.city %></div>
+         <div class="card-description">
+          <h2> <%= info.name %>'s home</h2>
+          <p>  <%= info.description %></p>
+        </div>
+        <%= image_tag info.owner_picture, class: "card-user avatar", alt: info.name %>
+        <a class="card-link" href="#"></a>
+      </div>
+    </div>
+    <% end %>
+   </div>
+  </div>
+</div>
+
+<!-- Your newsletter code -->
+<div class="text-center padded newsletter">
+  <h1>Get news from us</h1>
+  <p>Leave us your mail and get news from us</p>
+  <form class="form-inline">
+    <div class="form-group">
+      <input type="email" class="form-control" id="email" placeholder="bob@gmail.com">
+    </div>
+    <button type="submit" class="btn btn-primary">Subscribe</button>
+  </form>
+</div>
+<!-- Your map code -->
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script type="text/javascript">
+  var myLatlng = new google.maps.LatLng(48.852937,2.364178);
+
+  var myOptions = {
+    zoom: 16,
+    center: myLatlng,
+    scrollwheel: false,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    styles: [{
+      "featureType": "landscape",
+      "stylers": [
+      {
+        "hue": "#FFBB00"
+      },
+      {
+        "saturation": 43.400000000000006
+      },
+      {
+        "lightness": 37.599999999999994
+      },
+      {
+        "gamma": 1
+      }
+      ]
+    },
+    {
+      "featureType": "road.highway",
+      "stylers": [
+      {
+        "hue": "#FFC200"
+      },
+      {
+        "saturation": -61.8
+      },
+      {
+        "lightness": 45.599999999999994
+      },
+      {
+        "gamma": 1
+      }
+      ]
+    },
+    {
+      "featureType": "road.arterial",
+      "stylers": [
+      {
+        "hue": "#FF0300"
+      },
+      {
+        "saturation": -100
+      },
+      {
+        "lightness": 51.19999999999999
+      },
+      {
+        "gamma": 1
+      }
+      ]
+    },
+    {
+      "featureType": "road.local",
+      "stylers": [
+      {
+        "hue": "#FF0300"
+      },
+      {
+        "saturation": -100
+      },
+      {
+        "lightness": 52
+      },
+      {
+        "gamma": 1
+      }
+      ]
+    },
+    {
+      "featureType": "water",
+      "stylers": [
+      {
+        "hue": "#0078FF"
+      },
+      {
+        "saturation": -13.200000000000003
+      },
+      {
+        "lightness": 2.4000000000000057
+      },
+      {
+        "gamma": 1
+      }
+      ]
+    },
+    {
+      "featureType": "poi",
+      "stylers": [
+      {
+        "hue": "#00FF6A"
+      },
+      {
+        "saturation": -1.0989010989011234
+      },
+      {
+        "lightness": 11.200000000000017
+      },
+      {
+        "gamma": 1
+      }
+      ]
     }] // TODO: replace [] by array from https://snazzymaps.com/
   };
 

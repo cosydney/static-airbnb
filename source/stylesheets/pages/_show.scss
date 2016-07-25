@@ -1,0 +1,37 @@
+.wrapper-grey {
+  background-color: $gray-lighter;
+  padding: 20px;
+  margin: 20px;
+}
+
+#bookit {
+width: 100%
+}
+
+.user-booking {
+  padding: 40px;
+}
+
+#user-description {
+  margin:  0px 30px;
+}
+.user-profile {
+  padding: 40px;
+  margin: 0px 20px;
+  display: flex;
+  h1 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+    color: $gray-light;
+  }
+}
+
+.text-yellow {
+  color: $yellow;
+}
+
+.text-gray {
+  color: $gray-lighter;
+}
