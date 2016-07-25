@@ -56,6 +56,11 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+
+["anne", "seb", "romain"].each do |member|
+  proxy "/flats/#{member}.html", "/flats/show.html", :locals => { :owner => member }
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -91,9 +96,6 @@ activate :deploy do |deploy|
 end
 
 
-["anne", "seb", "romain"].each do |member|
-  proxy "/flats/#{member}.html", "/flats/show.html", :locals => { :owner => member }
-end
 
 
 
