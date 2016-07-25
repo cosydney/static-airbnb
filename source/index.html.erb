@@ -72,7 +72,7 @@ title: Le Wagon Middleman boilerplate
           <p>  <%= info.description %></p>
         </div>
         <%= image_tag info.owner_picture, class: "card-user avatar", alt: info.name %>
-        <a class="card-link" href="#"></a>
+        <a class="card-link" href=" /flats/<%= info.name.downcase %>.html "></a>
       </div>
     </div>
     <% end %>
