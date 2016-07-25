@@ -58,7 +58,7 @@ set :images_dir, 'images'
 
 
 ["anne", "seb", "romain"].each do |member|
-  proxy "/flats/#{member}.html", "/flats/show.html", :locals => { :owner => member }
+  proxy "/flats/#{member}.html", "/flats/show.html", :locals => { :owner => member }, :ignore => true
 end
 
 # Build-specific configuration
