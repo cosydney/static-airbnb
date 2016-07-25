@@ -1,0 +1,21 @@
+/* Footer design */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $gray;
+  color: $gray-lighter;
+  padding: 35px;
+  li {
+    margin: 10px;
+    &:hover{
+      color: $yellow;
+    }
+  }
+
+  p {
+    top: 10px;
+    right: 10px;
+  }
+}
+
