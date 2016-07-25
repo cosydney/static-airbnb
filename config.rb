@@ -61,6 +61,12 @@ set :images_dir, 'images'
   proxy "/flats/#{member}.html", "/flats/show.html", :locals => { :owner => member }, :ignore => true
 end
 
+activate :blog do |blog|
+   blog.prefix = "blog"
+  # set options on blog
+end
+
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment

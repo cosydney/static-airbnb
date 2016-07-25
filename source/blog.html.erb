@@ -1,0 +1,13 @@
+
+<div class="padded text-center">
+<h2> Check out our blog posts</h2>
+<br><br>
+<ul class= "list-inline">
+
+<% blog.articles[0...5].each do |article| %>
+<li> <a href=" <%= article.url %> "> <%= article.title %></a>
+</li>
+
+<% end %>
+</ul>
+</div>
