@@ -61,6 +61,8 @@ set :images_dir, 'images'
   proxy "/flats/#{member}.html", "/flats/show.html", :locals => { :owner => member }, :ignore => true
 end
 
+
+# do like above for articles layout
 activate :blog do |blog|
    blog.prefix = "blog"
   # set options on blog
